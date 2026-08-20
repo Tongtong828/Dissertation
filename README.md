@@ -1,4 +1,6 @@
 # Emochi: A Responsive Emotional Support Plush Device
+<img width="365" height="487" alt="image" src="https://github.com/user-attachments/assets/4e75fe4d-65b5-4a94-913c-b9b8f521a6eb" />
+
 
 Emochi is a responsive plush device developed to explore low-demand, physical and largely screen-free emotional-support interaction. It combines touch sensing, non-verbal audio, vibration feedback, guided breathing and device-initiated comfort-seeking behaviour within a soft plush body.
 
@@ -103,8 +105,10 @@ The EasyEDA project used for the PCB is available at:
 [`hardware/EmoPlush.eprj2`](hardware/EmoPlush.eprj2)
 
 The circuit schematic is included below:
+<img width="591" height="367" alt="image" src="https://github.com/user-attachments/assets/5f93a2cb-46b6-4a19-98b0-ef33cff71b09" />
 
-![Emochi circuit schematic](hardware/e42e7d8aadac9659d9494902a8174b56.png)
+The System architecture of Emochi below：
+<img width="774" height="436" alt="image" src="https://github.com/user-attachments/assets/e16e695d-95b5-4f4a-a5ea-125d9996bacb" />
 
 ---
 
@@ -206,7 +210,7 @@ meditation_start.wav
 meditation_end.wav
 ```
 
-The final local working folder should be:
+The final **local working** folder should be:
 
 ```text
 EmotionalPlush/
@@ -768,48 +772,6 @@ The most important values to re-check after final assembly are:
 - speaker volume and position.
 
 A successful reproduction should preserve the interaction logic even if some calibration values need to be adjusted for a different physical build.
-
----
-
-## 23. Project Files
-
-### Firmware
-
-- [`code/EmotionalPlush.ino`](code/EmotionalPlush.ino)
-- [`code/AudioPlayer.cpp`](code/AudioPlayer.cpp)
-- [`code/AudioPlayer.h`](code/AudioPlayer.h)
-
-### Development/Test Sketches
-
-- [`code/First_emo.ino`](code/First_emo.ino)
-- [`code/Speaker_test.ino`](code/Speaker_test.ino)
-
-### Hardware
-
-- [`hardware/EmoPlush.eprj2`](hardware/EmoPlush.eprj2)
-- [`hardware/e42e7d8aadac9659d9494902a8174b56.png`](hardware/e42e7d8aadac9659d9494902a8174b56.png)
-
-### Audio
-
-All required WAV files are stored in [`voice/`](voice/).
-
-### Enclosure and Sewing Patterns
-
-All STL and pattern files are stored in [`enclosure/`](enclosure/).
-
----
-
-## 24. Dissertation
-
-This repository accompanies the MSc Connected Environments dissertation:
-
-**Emochi: A Responsive Emotional Support Plush Device**
-
-Centre for Advanced Spatial Analysis (CASA)  
-University College London  
-2026
-
-The repository provides supplementary technical material for reproducing and further developing the physical Emochi prototype.
 
 ---
 
